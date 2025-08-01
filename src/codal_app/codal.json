@@ -7,6 +7,11 @@
         "test_ignore": true
     } ,
     "config":{
+
+        "DEVICE_DMESG_BUFFER_SIZE":1024,
+        "DMESG_SERIAL_DEBUG":1,
+        "DMESG_ENABLE":1,
+
         "DEVICE_STACK_SIZE": 8192,
         "MICROBIT_BLE_ENABLED" : 0,
         "MICROBIT_BLE_PAIRING_MODE": 1,
